@@ -10,8 +10,6 @@ def using_pop arr
   arr.pop
 end
 
-def pop_with_args arr, n
-  ret = []
-  n.each {ret << arr.pop}
-  ret
+def pop_with_args arr
+  arr.pop 2
 end
