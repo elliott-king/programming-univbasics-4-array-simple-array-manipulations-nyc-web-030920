@@ -10,7 +10,7 @@ def using_pop arr
   arr.pop
 end
 
-def pop_with_args arr n
+def pop_with_args arr, n
   ret = []
   n.each {ret << arr.pop}
   ret
